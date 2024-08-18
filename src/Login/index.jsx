@@ -1,12 +1,13 @@
 import Logo from '../../assets/logo.svg';
+
 import {
-  Button,
+  
   Conteiner,
   Form,
   LeftContainer,
   Link,
   RightContainer,
-  Title,
+  Title
 } from './styles';
 
 export function Login() {
@@ -32,10 +33,13 @@ export function Login() {
             <Input type="password" />
           </InputConteiner>
           <Link>Esquece minha senha.</Link>
-          <Button>Entar</Button>
+        
         </Form>
         <Link>Não possui conta?Clique aqui.</Link>
       </RightContainer>
     </Conteiner>
   );
+
+
+
 }
